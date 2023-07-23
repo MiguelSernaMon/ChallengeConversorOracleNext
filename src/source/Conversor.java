@@ -7,10 +7,10 @@ public class Conversor {
 	
 	//------Para las currencies
 	private double dolar = 4000d;
-	private double euros = 4200d;
-	private double librasEsterlinas = 3000d;
-	private double yenJapones = 200d;
-	private double wonCoreano = 1000d;
+	private double euros = 4420d;
+	private double librasEsterlinas = 5100d;
+	private double yenJapones = 24d;
+	private double wonCoreano = 3d;
 	
 	
 	public void pesosToExteriorCurrency(double valor, double moneda, String nombreMoneda) {

@@ -31,6 +31,7 @@ public class Menu {
 			} catch (Exception e) {
 
 				System.out.println("Ingrese un valor valido");
+				JOptionPane.showMessageDialog(null, "Ingrese un dato valido");
 
 			}
 		} while (inputError);
@@ -73,6 +74,7 @@ public class Menu {
 		} catch (Exception e) {
 
 			System.out.println("Ingrese un valor valido");
+			JOptionPane.showMessageDialog(null, "Ingrese un dato valido");
 			this.opcion = 1;
 
 		}
